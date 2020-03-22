@@ -6,21 +6,20 @@
         <div class="field">
           <%= f.label :username, "Username" %>
           <div class="ui left icon input">
-            <input type="text" placeholder="Username">
+          <%= f.text_field :username, placeholder: "Username" %>
             <i class="user green icon"></i>
           </div>
         </div>
         <div class="field">
-        <%= f.label :password, "password" %>
-          <div class="ui left icon input">
-            <input type="text" placeholder="password">
+            <%= f.label :password, "password" %>
+            <div class="ui left icon input">
+            <%= f.password_field :password, placeholder: "Password" %>
             <i class="lock green icon"></i>
           </div>
         </div>
-        <%= f.button "Login", class: "ui orange submit button" %>
-       <% end %>
+        <%= f.button "Login", class: "ui green submit button" %>
+    <% end %>
       </div>
-    </div>
     <div class="middle aligned column">
       <div class="ui big green button">
         <i class="signup green icon"></i>
