@@ -8,3 +8,4 @@
 User.create(username: "Rann", password: "helloword")
 User.create(username: "Chen", password: "helloword")
 User.create(username:"Cristo", password: "password")
+Message.create(body:"good evening", user_id:1)
